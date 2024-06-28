@@ -1,0 +1,59 @@
+/* Default styling, can be used for a base theme */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 2rem;
+}
+
+#balance, #quests, #shop {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #1e1e2f;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0.5rem;
+}
+
+.quest, .item {
+    margin-bottom: 1.5rem;
+}
+
+.quest h3, .item h3 {
+    margin: 0;
+}
+
+.quest p, .item p {
+    margin: 0.5rem 0;
+}
+
+.complete-quest-button, .buy-button {
+    padding: 0.5rem 1rem;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.complete-quest-button:hover, .buy-button:hover {
+    box-shadow: 0 0 20px #ff0000;
+}
