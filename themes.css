@@ -1,0 +1,51 @@
+/* Summer Theme */
+body.summer {
+    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+}
+
+header.summer {
+    background-color: #1a2a6c;
+}
+
+#balance.summer, #quests.summer, #shop.summer {
+    background-color: #4e54c8;
+}
+
+/* Winter Theme */
+body.winter {
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+
+header.winter {
+    background-color: #83a4d4;
+}
+
+#balance.winter, #quests.winter, #shop.winter {
+    background-color: #dbe4f0;
+}
+
+/* Spring Theme */
+body.spring {
+    background: linear-gradient(to right, #a1ffce, #faffd1);
+}
+
+header.spring {
+    background-color: #a1ffce;
+}
+
+#balance.spring, #quests.spring, #shop.spring {
+    background-color: #e0f7fa;
+}
+
+/* Fall Theme */
+body.fall {
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+}
+
+header.fall {
+    background-color: #f7797d;
+}
+
+#balance.fall, #quests.fall, #shop.fall {
+    background-color: #ffe0b2;
+}
